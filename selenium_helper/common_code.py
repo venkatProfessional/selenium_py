@@ -25,4 +25,7 @@ class CommonCode:
         """Static method to add a sleep wait."""
         time.sleep(seconds)
 
+    def service_obj(self):
+        pass
+
 

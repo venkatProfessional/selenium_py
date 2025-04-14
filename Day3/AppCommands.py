@@ -22,7 +22,6 @@ print(driver.page_source) # is used to to take the source content of the page
 
 
 #  conditional Commands
-
 # is_displayed()
 # is_enabled()
 # is_selected()
