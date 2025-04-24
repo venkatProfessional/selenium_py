@@ -1,0 +1,35 @@
+# these are three rules that pytest must follow and identify this as a pytest case
+
+#Any py test file should start with test_
+#any code of the pytest showld we wrapped in method
+#method name showld start with test
+
+
+
+# click on folder file in top
+# click edit configuration
+# click on pytest
+# click on source file of the pytest
+
+# to run a pytest in cmd_prompt  py.test -v
+
+# if yu want to run a sepcific file
+# py.test test_demo2.py
+
+
+what if we want to run a file with method with ending with creditcard for example
+
+py.test -k creditcard -v -s
+
+Part                            | Meaning
+py.test / pytest                | Invokes the pytest test runner
+-k creditcard                   | # pytest -k creditcard -v -s
+-v | Verbose mode:              Shows the full names of tests and their statuses
+-s | Don't capture output:      Allows you to see print() statements in terminal
+
+
+ # pytest -k creditcard -v -s
+
+mark
+pytest -m smoke
+to run a smoke mark
