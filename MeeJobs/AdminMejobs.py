@@ -16,7 +16,7 @@ class AutomateJobposts:
             Email = self.driver.find_element(By.XPATH, "//input[@id='email']")
             Email.send_keys("begata6168@f5url.com")
             Password = self.driver.find_element(By.XPATH, "//input[@id='password']")
-            Password.send_keys("Dinesh@123")
+            # Password.send_keys("@123")
             loginbtn = self.driver.find_element(By.XPATH, "//button[normalize-space()='Login']")
             loginbtn.click()
             self.helper.wait()
@@ -106,3 +106,6 @@ if __name__ == "__main__":
     test = AutomateJobposts()
     test.login()
     test.fillformfields()
+
+
+# Dinesh@123
