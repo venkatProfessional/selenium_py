@@ -13,6 +13,9 @@
 
 # to run a pytest in cmd_prompt  py.test -v
 
+-s is used to print the pytest prints
+-v is used to see a full detail
+
 # if yu want to run a sepcific file
 # py.test test_demo2.py
 
@@ -33,3 +36,14 @@ py.test / pytest                | Invokes the pytest test runner
 mark
 pytest -m smoke
 to run a smoke mark
+
+
+fixtures dont need to start with test_
+fixture is like a prerequiste    
+
+# fixture is nothing but pre conditions and post condition
+# fixture is also help to load the data
+
+ to take a report in html
+ pip install pytest-html
+ pytest --html=report.html

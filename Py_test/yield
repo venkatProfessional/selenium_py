@@ -1,0 +1,21 @@
+yield is a keyword in Python, similar to return.
+
+But unlike return, which terminates a function immediately,
+
+yield pauses the function saving its state and allows resumption later.
+
+def simple_return():
+    return 1
+    return 2  # unreachable
+
+def simple_yield():
+    yield 1
+    yield 2
+
+# Using return
+print(simple_return())   # Output: 1
+
+# Using yield
+gen = simple_yield()
+print(next(gen))         # Output: 1
+print(next(gen))         # Output: 2
